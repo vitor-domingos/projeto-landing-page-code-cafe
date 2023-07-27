@@ -1,0 +1,276 @@
+@media (max-width: 992px) {
+  .secao-com-texto {
+    padding: 153px 25px;
+  }
+  .secao-com-texto p,
+  .secao-com-texto.onde-estamos p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contato {
+    background-image: none;
+    background-color: #d3ae71;
+    margin-top: 800px;
+    position: relative;
+    top: 1000px;
+  }
+
+  .contato .texto {
+    text-align: justify;
+    position: relative;
+    left: 200px;
+    top: 550px;
+  }
+
+  .contato h2 {
+    margin-bottom: 46px;
+  }
+}
+
+@media (max-width: 720px) {
+  .ladrilho .grande {
+    width: 50%;
+  }
+
+  .ladrilho .pequeno,
+  .ladrilho.pequeno.grao,
+  .ladrilho.pequeno.xicara,
+  .ladrilho.pequeno.pirez,
+  .ladrilho .medio {
+    width: 25%;
+  }
+
+  .rodape {
+    text-align: center;
+    background-image: none;
+    background-color: #000;
+    height: 20%;
+    position: absolute;
+    top: 118%;
+  }
+
+  .rodape .logo {
+    display: block;
+    margin-bottom: 122px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .rodape ul {
+    display: block;
+    width: 100%;
+    margin-bottom: 122px;
+  }
+
+  .rodape ul li {
+    display: block;
+    position: relative;
+    right: 10px;
+    bottom: 30px;
+  }
+
+  .rodape ul li a {
+    font-size: 2rem;
+  }
+
+  .fa-instagram {
+    padding-left: 60px;
+    position: relative;
+    bottom: 75px;
+  }
+
+  .fa-facebook,
+  .fa-instagram {
+    font-size: 20px;
+    float: none;
+    margin-bottom: 28px;
+    position: absolute;
+    left: 295px;
+    top: 510px;
+  }
+
+  .copyright {
+    position: absolute;
+    left: 39%;
+    bottom: 38%;
+  }
+}
+
+@media (max-width: 530px) {
+  .container {
+    position: relative;
+  }
+
+  .contato .texto {
+    text-align: justify;
+    position: absolute;
+    left: 100px;
+  }
+
+  .fa-instagram {
+    position: relative;
+    left: 5px;
+  }
+
+  .fa-facebook,
+  .fa-instagram {
+    position: absolute;
+    left: 210px;
+  }
+
+  .copyright {
+    left: 190px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    position: relative;
+  }
+
+  .contato .texto {
+    text-align: justify;
+    position: absolute;
+    left: 100px;
+  }
+
+  .fa-instagram {
+    position: relative;
+    left: 5px;
+  }
+
+  .fa-facebook,
+  .fa-instagram {
+    position: absolute;
+    left: 210px;
+  }
+
+  .copyright {
+    left: 185px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cabecalho .logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .cabecalho nav {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+
+  .cabecalho nav ul li {
+    display: block;
+  }
+
+  .cabecalho nav ul li a {
+    width: 100%;
+    display: block;
+  }
+
+  .painel h2 {
+    font-size: 2.5rem;
+  }
+
+  .secao-com-texto h2 {
+    font-size: 3rem;
+  }
+
+  .secao-com-texto.onde-estamos p {
+    font-size: 2rem;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .contato .texto {
+    text-align: justify;
+    position: absolute;
+    left: 50px;
+  }
+
+  .fa-instagram {
+    position: relative;
+    left: 5px;
+  }
+
+  .fa-facebook,
+  .fa-instagram {
+    position: absolute;
+    left: 155px;
+  }
+
+  .copyright {
+    left: 135px;
+  }
+}
+
+@media (max-width: 396px) {
+  .container {
+    position: relative;
+  }
+
+  .contato .texto {
+    text-align: justify;
+    position: absolute;
+    left: 30px;
+  }
+
+  .fa-instagram {
+    position: relative;
+    left: 5px;
+  }
+
+  .fa-facebook,
+  .fa-instagram {
+    position: absolute;
+    left: 145px;
+  }
+
+  .copyright {
+    left: 125px;
+  }
+}
+
+@media (max-width: 375px) {
+  .ladrilho .pequeno,
+  .ladrilho.pequeno.grao,
+  .ladrilho.pequeno.xicara,
+  .ladrilho.pequeno.pirez {
+    width: 50%;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    position: relative;
+  }
+
+  .contato .texto {
+    text-align: justify;
+    position: absolute;
+    left: 15px;
+  }
+
+  .fa-instagram {
+    position: relative;
+    left: 5px;
+  }
+
+  .fa-facebook,
+  .fa-instagram {
+    position: absolute;
+    left: 110px;
+  }
+
+  .copyright {
+    left: 90px;
+  }
+}
